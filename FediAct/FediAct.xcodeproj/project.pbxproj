@@ -1,0 +1,957 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5A76B55296FE95900688E66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A76B54296FE95900688E66 /* AppDelegate.swift */; };
+		B5A76B57296FE95900688E66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A76B56296FE95900688E66 /* SceneDelegate.swift */; };
+		B5A76B5A296FE95900688E66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A76B58296FE95900688E66 /* LaunchScreen.storyboard */; };
+		B5A76B5D296FE95900688E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A76B5B296FE95900688E66 /* Main.storyboard */; };
+		B5A76B66296FE95900688E66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A76B65296FE95900688E66 /* AppDelegate.swift */; };
+		B5A76B69296FE95900688E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A76B67296FE95900688E66 /* Main.storyboard */; };
+		B5A76B71296FE95900688E66 /* FediAct Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B5A76B70296FE95900688E66 /* FediAct Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B5A76B7B296FE95900688E66 /* FediAct Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B5A76B7A296FE95900688E66 /* FediAct Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B5A76B81296FE95900688E66 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = B5A76B44296FE95800688E66 /* Main.html */; };
+		B5A76B82296FE95900688E66 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = B5A76B44296FE95800688E66 /* Main.html */; };
+		B5A76B83296FE95900688E66 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A76B46296FE95800688E66 /* Icon.png */; };
+		B5A76B84296FE95900688E66 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A76B46296FE95800688E66 /* Icon.png */; };
+		B5A76B85296FE95900688E66 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = B5A76B47296FE95800688E66 /* Style.css */; };
+		B5A76B86296FE95900688E66 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = B5A76B47296FE95800688E66 /* Style.css */; };
+		B5A76B87296FE95900688E66 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = B5A76B48296FE95800688E66 /* Script.js */; };
+		B5A76B88296FE95900688E66 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = B5A76B48296FE95800688E66 /* Script.js */; };
+		B5A76B89296FE95900688E66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A76B49296FE95800688E66 /* ViewController.swift */; };
+		B5A76B8A296FE95900688E66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A76B49296FE95800688E66 /* ViewController.swift */; };
+		B5A76B8B296FE95900688E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A76B4A296FE95900688E66 /* Assets.xcassets */; };
+		B5A76B8C296FE95900688E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A76B4A296FE95900688E66 /* Assets.xcassets */; };
+		B5A76B8D296FE95900688E66 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A76B4C296FE95900688E66 /* SafariWebExtensionHandler.swift */; };
+		B5A76B8E296FE95900688E66 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A76B4C296FE95900688E66 /* SafariWebExtensionHandler.swift */; };
+		B5A76BA7296FE95900688E66 /* firefox in Resources */ = {isa = PBXBuildFile; fileRef = B5A76BA0296FE95900688E66 /* firefox */; };
+		B5A76BA8296FE95900688E66 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B5A76BA1296FE95900688E66 /* LICENSE */; };
+		B5A76BA9296FE95900688E66 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B5A76BA2296FE95900688E66 /* README.md */; };
+		B5A76BAA296FE95900688E66 /* img in Resources */ = {isa = PBXBuildFile; fileRef = B5A76BA3296FE95900688E66 /* img */; };
+		B5A76BAB296FE95900688E66 /* pack.sh in Resources */ = {isa = PBXBuildFile; fileRef = B5A76BA4296FE95900688E66 /* pack.sh */; };
+		B5A76BAC296FE95900688E66 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B5A76BA5296FE95900688E66 /* manifest.json */; };
+		B5A76BAD296FE95900688E66 /* src in Resources */ = {isa = PBXBuildFile; fileRef = B5A76BA6296FE95900688E66 /* src */; };
+		B5A76BAE296FE95900688E66 /* firefox in Resources */ = {isa = PBXBuildFile; fileRef = B5A76BA0296FE95900688E66 /* firefox */; };
+		B5A76BAF296FE95900688E66 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B5A76BA1296FE95900688E66 /* LICENSE */; };
+		B5A76BB0296FE95900688E66 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B5A76BA2296FE95900688E66 /* README.md */; };
+		B5A76BB1296FE95900688E66 /* img in Resources */ = {isa = PBXBuildFile; fileRef = B5A76BA3296FE95900688E66 /* img */; };
+		B5A76BB2296FE95900688E66 /* pack.sh in Resources */ = {isa = PBXBuildFile; fileRef = B5A76BA4296FE95900688E66 /* pack.sh */; };
+		B5A76BB3296FE95900688E66 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B5A76BA5296FE95900688E66 /* manifest.json */; };
+		B5A76BB4296FE95900688E66 /* src in Resources */ = {isa = PBXBuildFile; fileRef = B5A76BA6296FE95900688E66 /* src */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5A76B72296FE95900688E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A76B3E296FE95800688E66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5A76B6F296FE95900688E66;
+			remoteInfo = "FediAct Extension (iOS)";
+		};
+		B5A76B7C296FE95900688E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A76B3E296FE95800688E66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5A76B79296FE95900688E66;
+			remoteInfo = "FediAct Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5A76B94296FE95900688E66 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B5A76B71296FE95900688E66 /* FediAct Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A76B9B296FE95900688E66 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B5A76B7B296FE95900688E66 /* FediAct Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B5A76B45296FE95800688E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		B5A76B46296FE95800688E66 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B5A76B47296FE95800688E66 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		B5A76B48296FE95800688E66 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		B5A76B49296FE95800688E66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5A76B4A296FE95900688E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5A76B4C296FE95900688E66 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		B5A76B51296FE95900688E66 /* FediAct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FediAct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A76B54296FE95900688E66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5A76B56296FE95900688E66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B5A76B59296FE95900688E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5A76B5C296FE95900688E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5A76B5E296FE95900688E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A76B63296FE95900688E66 /* FediAct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FediAct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A76B65296FE95900688E66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5A76B68296FE95900688E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5A76B6A296FE95900688E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A76B6B296FE95900688E66 /* FediAct.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FediAct.entitlements; sourceTree = "<group>"; };
+		B5A76B70296FE95900688E66 /* FediAct Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FediAct Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A76B75296FE95900688E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A76B7A296FE95900688E66 /* FediAct Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FediAct Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A76B7F296FE95900688E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A76B80296FE95900688E66 /* FediAct.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FediAct.entitlements; sourceTree = "<group>"; };
+		B5A76BA0296FE95900688E66 /* firefox */ = {isa = PBXFileReference; lastKnownFileType = folder; name = firefox; path = Resources/firefox; sourceTree = "<group>"; };
+		B5A76BA1296FE95900688E66 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = Resources/LICENSE; sourceTree = "<group>"; };
+		B5A76BA2296FE95900688E66 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = Resources/README.md; sourceTree = "<group>"; };
+		B5A76BA3296FE95900688E66 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = img; path = Resources/img; sourceTree = "<group>"; };
+		B5A76BA4296FE95900688E66 /* pack.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = pack.sh; path = Resources/pack.sh; sourceTree = "<group>"; };
+		B5A76BA5296FE95900688E66 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		B5A76BA6296FE95900688E66 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = Resources/src; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5A76B4E296FE95900688E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A76B60296FE95900688E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A76B6D296FE95900688E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A76B77296FE95900688E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5A76B3D296FE95800688E66 = {
+			isa = PBXGroup;
+			children = (
+				B5A76B42296FE95800688E66 /* Shared (App) */,
+				B5A76B4B296FE95900688E66 /* Shared (Extension) */,
+				B5A76B53296FE95900688E66 /* iOS (App) */,
+				B5A76B64296FE95900688E66 /* macOS (App) */,
+				B5A76B74296FE95900688E66 /* iOS (Extension) */,
+				B5A76B7E296FE95900688E66 /* macOS (Extension) */,
+				B5A76B52296FE95900688E66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5A76B42296FE95800688E66 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				B5A76B49296FE95800688E66 /* ViewController.swift */,
+				B5A76B4A296FE95900688E66 /* Assets.xcassets */,
+				B5A76B43296FE95800688E66 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		B5A76B43296FE95800688E66 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5A76B44296FE95800688E66 /* Main.html */,
+				B5A76B46296FE95800688E66 /* Icon.png */,
+				B5A76B47296FE95800688E66 /* Style.css */,
+				B5A76B48296FE95800688E66 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B5A76B4B296FE95900688E66 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				B5A76B9F296FE95900688E66 /* Resources */,
+				B5A76B4C296FE95900688E66 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		B5A76B52296FE95900688E66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5A76B51296FE95900688E66 /* FediAct.app */,
+				B5A76B63296FE95900688E66 /* FediAct.app */,
+				B5A76B70296FE95900688E66 /* FediAct Extension.appex */,
+				B5A76B7A296FE95900688E66 /* FediAct Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5A76B53296FE95900688E66 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				B5A76B54296FE95900688E66 /* AppDelegate.swift */,
+				B5A76B56296FE95900688E66 /* SceneDelegate.swift */,
+				B5A76B58296FE95900688E66 /* LaunchScreen.storyboard */,
+				B5A76B5B296FE95900688E66 /* Main.storyboard */,
+				B5A76B5E296FE95900688E66 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		B5A76B64296FE95900688E66 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				B5A76B65296FE95900688E66 /* AppDelegate.swift */,
+				B5A76B67296FE95900688E66 /* Main.storyboard */,
+				B5A76B6A296FE95900688E66 /* Info.plist */,
+				B5A76B6B296FE95900688E66 /* FediAct.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		B5A76B74296FE95900688E66 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				B5A76B75296FE95900688E66 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		B5A76B7E296FE95900688E66 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				B5A76B7F296FE95900688E66 /* Info.plist */,
+				B5A76B80296FE95900688E66 /* FediAct.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		B5A76B9F296FE95900688E66 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5A76BA0296FE95900688E66 /* firefox */,
+				B5A76BA1296FE95900688E66 /* LICENSE */,
+				B5A76BA2296FE95900688E66 /* README.md */,
+				B5A76BA3296FE95900688E66 /* img */,
+				B5A76BA4296FE95900688E66 /* pack.sh */,
+				B5A76BA5296FE95900688E66 /* manifest.json */,
+				B5A76BA6296FE95900688E66 /* src */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5A76B50296FE95900688E66 /* FediAct (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A76B95296FE95900688E66 /* Build configuration list for PBXNativeTarget "FediAct (iOS)" */;
+			buildPhases = (
+				B5A76B4D296FE95900688E66 /* Sources */,
+				B5A76B4E296FE95900688E66 /* Frameworks */,
+				B5A76B4F296FE95900688E66 /* Resources */,
+				B5A76B94296FE95900688E66 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5A76B73296FE95900688E66 /* PBXTargetDependency */,
+			);
+			name = "FediAct (iOS)";
+			productName = "FediAct (iOS)";
+			productReference = B5A76B51296FE95900688E66 /* FediAct.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5A76B62296FE95900688E66 /* FediAct (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A76B9C296FE95900688E66 /* Build configuration list for PBXNativeTarget "FediAct (macOS)" */;
+			buildPhases = (
+				B5A76B5F296FE95900688E66 /* Sources */,
+				B5A76B60296FE95900688E66 /* Frameworks */,
+				B5A76B61296FE95900688E66 /* Resources */,
+				B5A76B9B296FE95900688E66 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5A76B7D296FE95900688E66 /* PBXTargetDependency */,
+			);
+			name = "FediAct (macOS)";
+			productName = "FediAct (macOS)";
+			productReference = B5A76B63296FE95900688E66 /* FediAct.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5A76B6F296FE95900688E66 /* FediAct Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A76B91296FE95900688E66 /* Build configuration list for PBXNativeTarget "FediAct Extension (iOS)" */;
+			buildPhases = (
+				B5A76B6C296FE95900688E66 /* Sources */,
+				B5A76B6D296FE95900688E66 /* Frameworks */,
+				B5A76B6E296FE95900688E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FediAct Extension (iOS)";
+			productName = "FediAct Extension (iOS)";
+			productReference = B5A76B70296FE95900688E66 /* FediAct Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B5A76B79296FE95900688E66 /* FediAct Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A76B98296FE95900688E66 /* Build configuration list for PBXNativeTarget "FediAct Extension (macOS)" */;
+			buildPhases = (
+				B5A76B76296FE95900688E66 /* Sources */,
+				B5A76B77296FE95900688E66 /* Frameworks */,
+				B5A76B78296FE95900688E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FediAct Extension (macOS)";
+			productName = "FediAct Extension (macOS)";
+			productReference = B5A76B7A296FE95900688E66 /* FediAct Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5A76B3E296FE95800688E66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B5A76B50296FE95900688E66 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B5A76B62296FE95900688E66 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B5A76B6F296FE95900688E66 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B5A76B79296FE95900688E66 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B5A76B41296FE95800688E66 /* Build configuration list for PBXProject "FediAct" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5A76B3D296FE95800688E66;
+			productRefGroup = B5A76B52296FE95900688E66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5A76B50296FE95900688E66 /* FediAct (iOS) */,
+				B5A76B62296FE95900688E66 /* FediAct (macOS) */,
+				B5A76B6F296FE95900688E66 /* FediAct Extension (iOS) */,
+				B5A76B79296FE95900688E66 /* FediAct Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5A76B4F296FE95900688E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A76B83296FE95900688E66 /* Icon.png in Resources */,
+				B5A76B5A296FE95900688E66 /* LaunchScreen.storyboard in Resources */,
+				B5A76B81296FE95900688E66 /* Main.html in Resources */,
+				B5A76B87296FE95900688E66 /* Script.js in Resources */,
+				B5A76B8B296FE95900688E66 /* Assets.xcassets in Resources */,
+				B5A76B5D296FE95900688E66 /* Main.storyboard in Resources */,
+				B5A76B85296FE95900688E66 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A76B61296FE95900688E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A76B84296FE95900688E66 /* Icon.png in Resources */,
+				B5A76B86296FE95900688E66 /* Style.css in Resources */,
+				B5A76B69296FE95900688E66 /* Main.storyboard in Resources */,
+				B5A76B88296FE95900688E66 /* Script.js in Resources */,
+				B5A76B8C296FE95900688E66 /* Assets.xcassets in Resources */,
+				B5A76B82296FE95900688E66 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A76B6E296FE95900688E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A76BB2296FE95900688E66 /* pack.sh in Resources */,
+				B5A76BB1296FE95900688E66 /* img in Resources */,
+				B5A76BB0296FE95900688E66 /* README.md in Resources */,
+				B5A76BAF296FE95900688E66 /* LICENSE in Resources */,
+				B5A76BB3296FE95900688E66 /* manifest.json in Resources */,
+				B5A76BB4296FE95900688E66 /* src in Resources */,
+				B5A76BAE296FE95900688E66 /* firefox in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A76B78296FE95900688E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A76BAB296FE95900688E66 /* pack.sh in Resources */,
+				B5A76BAA296FE95900688E66 /* img in Resources */,
+				B5A76BA9296FE95900688E66 /* README.md in Resources */,
+				B5A76BA8296FE95900688E66 /* LICENSE in Resources */,
+				B5A76BAC296FE95900688E66 /* manifest.json in Resources */,
+				B5A76BAD296FE95900688E66 /* src in Resources */,
+				B5A76BA7296FE95900688E66 /* firefox in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5A76B4D296FE95900688E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A76B89296FE95900688E66 /* ViewController.swift in Sources */,
+				B5A76B55296FE95900688E66 /* AppDelegate.swift in Sources */,
+				B5A76B57296FE95900688E66 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A76B5F296FE95900688E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A76B8A296FE95900688E66 /* ViewController.swift in Sources */,
+				B5A76B66296FE95900688E66 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A76B6C296FE95900688E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A76B8D296FE95900688E66 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A76B76296FE95900688E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A76B8E296FE95900688E66 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5A76B73296FE95900688E66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5A76B6F296FE95900688E66 /* FediAct Extension (iOS) */;
+			targetProxy = B5A76B72296FE95900688E66 /* PBXContainerItemProxy */;
+		};
+		B5A76B7D296FE95900688E66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5A76B79296FE95900688E66 /* FediAct Extension (macOS) */;
+			targetProxy = B5A76B7C296FE95900688E66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5A76B44296FE95800688E66 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5A76B45296FE95800688E66 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		B5A76B58296FE95900688E66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5A76B59296FE95900688E66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B5A76B5B296FE95900688E66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5A76B5C296FE95900688E66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5A76B67296FE95900688E66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5A76B68296FE95900688E66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5A76B8F296FE95900688E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5A76B90296FE95900688E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B5A76B92296FE95900688E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FediAct Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.headbright.foss.FediAct.Extension;
+				PRODUCT_NAME = "FediAct Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5A76B93296FE95900688E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FediAct Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.headbright.foss.FediAct.Extension;
+				PRODUCT_NAME = "FediAct Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5A76B96296FE95900688E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = FediAct;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.headbright.foss.FediAct;
+				PRODUCT_NAME = FediAct;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5A76B97296FE95900688E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = FediAct;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.headbright.foss.FediAct;
+				PRODUCT_NAME = FediAct;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5A76B99296FE95900688E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/FediAct.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FediAct Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.headbright.foss.FediAct.Extension;
+				PRODUCT_NAME = "FediAct Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B5A76B9A296FE95900688E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/FediAct.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "FediAct Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.headbright.foss.FediAct.Extension;
+				PRODUCT_NAME = "FediAct Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B5A76B9D296FE95900688E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/FediAct.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = FediAct;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.headbright.foss.FediAct;
+				PRODUCT_NAME = FediAct;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B5A76B9E296FE95900688E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/FediAct.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = FediAct;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.headbright.foss.FediAct;
+				PRODUCT_NAME = FediAct;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5A76B41296FE95800688E66 /* Build configuration list for PBXProject "FediAct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A76B8F296FE95900688E66 /* Debug */,
+				B5A76B90296FE95900688E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A76B91296FE95900688E66 /* Build configuration list for PBXNativeTarget "FediAct Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A76B92296FE95900688E66 /* Debug */,
+				B5A76B93296FE95900688E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A76B95296FE95900688E66 /* Build configuration list for PBXNativeTarget "FediAct (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A76B96296FE95900688E66 /* Debug */,
+				B5A76B97296FE95900688E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A76B98296FE95900688E66 /* Build configuration list for PBXNativeTarget "FediAct Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A76B99296FE95900688E66 /* Debug */,
+				B5A76B9A296FE95900688E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A76B9C296FE95900688E66 /* Build configuration list for PBXNativeTarget "FediAct (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A76B9D296FE95900688E66 /* Debug */,
+				B5A76B9E296FE95900688E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5A76B3E296FE95800688E66 /* Project object */;
+}

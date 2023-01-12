@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<link rel="stylesheet" href="chrome://browser/content/extension.css">
+		<meta name="color-scheme" content="dark light">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="lib/jquery-3.6.1.min.js"></script>
+		<script src="popup.min.js"></script>
+		<link rel="stylesheet" href="popup_styles.min.css">
+  </head>
+  <body>
+	<div id="mhi-wrapper">
+		<div id="mhi-containers">
+			<form id="fediact-settings">
+				<div class="scroller">
+					<fieldset aria-labelledby="homeServerDomainLabel">
+						<div class="row">
+							<label for="homeinstance">
+								<legend id="homeServerDomainLabel"><h1>Home Server Domain</h1></legend>
+								<span>
+									Make sure you are logged in to your home server
+								</span>
+							</label>
+							<div class="text-input-container">
+								<span>https://</span>
+								<input type="text" id="homeinstance" name="homeinstance" placeholder="example.social">
+							</div>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend>Redirect Settings</legend>
+						<div class="row">
+							<label for="redirects">Enable
+								<span>
+									Redirect on double click and reply
+								</span>
+							</label>
+							<input type="checkbox" id="redirects" name="redirects">
+						</div>
+						<div class="row">
+							<label for="alert">Prompt
+								<span>
+									Show confirmation dialog before redirecting
+								</span>
+							</label>
+							<input type="checkbox" id="alert" name="alert">
+						</div>
+						<div class="row">
+							<label for="target">Open in...</label>
+							<select name="target" id="target" selected="_blank">
+								<option id="target_blank" value="_blank">New tab&nbsp;</option>
+								<option id="target_self" value="_self">Same tab&nbsp;</option>
+							</select>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend>Other Settings</legend>
+						<div class="row">
+							<label for="autoaction">Actions
+								<span>
+									Enable follow, boost, etc. on other servers 
+								</span>
+							</label>
+							<input type="checkbox" id="autoaction" name="autoaction">
+						</div>
+						<div class="row">
+							<label for="hidemuted">Hide muted/blocked
+								<span>
+									Can fail / decrease performance in some cases
+								</span>
+							</label>
+							<input type="checkbox" id="hidemuted" name="hidemuted">
+						</div>
+						<div class="row">
+							<label for="delay">API delay
+								<span>
+									Only allow one API request every 500ms
+								</span>
+							</label>
+							<input type="checkbox" id="delay" name="delay">
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend>Mode</legend>
+						<div class="row">
+							<label for="runifloggedin">Ignore sessions
+								<span>
+									Run FediAct on instances where I'm logged in
+								</span>
+							</label>
+							<input type="checkbox" id="runifloggedin" name="runifloggedin">
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend>Filtered servers</legend>
+						<div class="row">
+							<label for="mode">Mode
+								<span class="hide" id="allowlabel">
+									Only run on the following domains...
+								</span>
+								<span class="hide" id="denylabel">
+									Run on all domains except the following...
+								</span>
+							</label>
+							<select name="mode" id="mode" selected="blacklist">
+								<option id="blacklist" value="blacklist">Denylist&nbsp;</option>
+								<option id="whitelist" value="whitelist">Allowlist&nbsp;</option>
+							</select>
+						</div>
+						<div class="row">
+							<div class="hide textarea-container" id="blacklist_input">
+								<textarea id="blacklist_content" name="blacklist_content" placeholder="example.social&#10;example2.social"></textarea>
+							</div>
+							<div class="hide textarea-container" id="whitelist_input">
+								<textarea id="whitelist_content" name="whitelist_content" placeholder="example.social&#10;example2.social"></textarea>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+				<div class="footer">
+					<input type="submit" value="Save">
+					<span id="indicator" style="display:none">Settings saved!</span>
+					<span><a target="_blank" href="https://github.com/lartsch/FediAct">More info / help on Github</a></span>
+				</div>
+			</form>
+    </div>
+   </div>
+  </body>
+</html>
